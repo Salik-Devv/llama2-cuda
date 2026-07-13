@@ -1,0 +1,17 @@
+# compiled binary
+run
+
+# model weights — too large for GitHub (>100 MB limit)
+models/*.bin
+
+# results that regenerate
+results/llama_profile.csv
+
+# system
+.DS_Store
+__pycache__/
+*.pyc
+
+# Nsight Compute reports
+*.ncu-rep
+results/*.ncu-rep
